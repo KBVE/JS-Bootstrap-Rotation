@@ -1,0 +1,211 @@
+<html lang="en">
+
+			<head>
+				<meta charset="utf-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<title>ಠ_ಠ</title>	
+		
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+				<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/slate/bootstrap.min.css">
+				<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" ></script>
+				
+				
+				<script>
+					var bootstrap = [ "cerulean", "cosmo", "cyborg", "darkly", "flatly", "journal", "lumen", "paper", "readable", "sandstone", "simplex", "slate", "spacelab", "superhero", "united", "yeti"];
+					var current = "";
+					
+					$.urlParam = function(name){
+						var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+						if (results==null){
+						   return null;
+						}
+						else{
+						   return results[1] || 0;
+						}
+					}
+				//	$('iframe').attr("src", "https://kbve.com/torrent/?manget=" + $.urlParam('magnet'));
+						
+					function randomFrom(arr){
+					var randomIndex = Math.floor(Math.random() * arr.length);
+					return arr[randomIndex];
+					}
+					function randomCSS()
+					{
+					current = randomFrom(bootstrap);
+					$('link[rel=stylesheet]').attr("href", "//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/" + current + "/bootstrap.min.css");
+					}
+					randomCSS();
+					/**
+					$('*').on('blur change click dblclick error focus focusin focusout hover keydown keypress keyup load mousedown mouseenter mouseleave mousemove mouseout mouseover mouseup resize scroll select submit', function(){
+					 randomCSS();
+					});
+					**/
+					//alert(randomFrom(bootstrap));
+					
+				
+				</script>
+					
+			</head>
+		
+
+			<body>
+				<div class="container">
+				  <!-- Header -->
+				   <div class="navbar navbar-fixed-top">
+				   <div class="navbar-inner">
+					 <div class="container">
+					 <div class="col-md-6 center-block"></div>
+					<!--	<a class="brand" href="#"><img src="https://kbve.com/wp-content/themes/groove/images/logo.png"></a> -->
+						ಠ_ಠ
+					 </div>
+				   </div>
+					 </div>
+				  <!-- Header -->	 
+				 
+				  <div class="row">&nbsp;</div>
+				  
+				  
+			  
+				  <div class="row">&nbsp;</div>
+				  <div class="row">
+					<div class="span12">
+					<br />
+					 <!-- <h4>/fetch/</h4>
+					  <p><h6>VE1 Online</h6></P> -->
+
+					</div>
+				  </div>
+				  <div class="row">
+					<div id="title">
+							   
+								<script>
+								
+									 
+					
+													 
+								
+							</script>
+							  </div>
+							  
+							  <!--
+							   <form method="post"  name="myform" >
+								 <p>Your message: <div id="status"></div> </p>
+								 <textarea style="width:100%; height: 100px" name="message" rows="16" cols="80" id="message">
+								 Your Username/Name/Contact Info, Your message! and additional information! This whole message will be encrypted and sent to the mask address! Thanks! This message is encrypted locally through your browser! (OpenPGP.js) and is not sent out UNTIL its done with its encryption. Furthermore, KBVE does not store any private keys, its up to the mask owner to maintain the private key that is matching the public key!
+								 </textarea>
+								 <br />
+								
+								<p>Your Mask </p><input name="personal_mask" class="form-control" id="focusedInput" type="text" value="">
+								<br />
+								<p>Your MIN: <p><input name="personal_mask" class="form-control" id="focusedInput" type="text" value="">
+								<br /> 
+								<input type="button" value="Send" name="mybutton" class="btn btn-default" id="getdata-button" onclick="encryptSend();" data-toggle="modal" data-target="#ModalProcess" />
+								<br />
+
+							   </form>
+							   !-->
+							 
+								
+								
+								 
+								 <div id="download"></div>
+								 <br />
+								
+							  </div>
+							
+									
+				 
+				  <div class="row">
+				   <button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+					  Magnet
+					  </button>
+					<button class="btn btn-default" data-toggle="modal" data-target="#ModalMask">
+					  Legal Terms
+					  </button>
+							 <!-- Crypto -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="myModalLabel">/magnet/</h4>
+							  </div>
+							  <div class="modal-body">
+								
+								
+								  <iframe src="https://kbve.com/torrent/" style="zoom:0.60" width="99.6%" height="250" frameborder="0"></iframe>
+
+								
+								</div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  </div>
+							</div>
+							</div>
+							</div>
+							
+							 <!-- MASK PGP -->
+							<div class="modal fade" id="ModalMask" tabindex="-1" role="dialog" aria-labelledby="ModalMaskLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="ModalMaskLabel">{MASK} Public Key</h4>
+							  </div>
+							  <div class="modal-body">
+								
+								
+											  <div class="block" style="">
+							   <h6>Public Key {MASK}</h6>
+							   <textarea style="width:100%; height: 100px" rows="80" cols="100" id="pubkey" readonly>-----BEGIN </textarea>
+							  </div>
+								
+								</div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  </div>
+							</div>
+							</div>
+							</div>
+							
+							 <!-- Processing -->
+							<div class="modal fade" id="ModalProcess" tabindex="-1" role="dialog" aria-labelledby="ModalProcessLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="ModalProcessLabel">Fetching and compiling the requested Magnet link...</h4>
+							  </div>
+							  <div class="modal-body">
+								
+								
+										<div class="progress progress-striped active">
+			  <div class="progress-bar" name="progress" id="progress" style="width: 0%"></div>
+										</div>
+										<br />
+										<div id="download2">...Initializing...please wait less than 30 seconds...</div>
+										
+								</div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  </div>
+							</div>
+							</div>
+							</div>
+							
+				
+							
+				
+							
+					 </div>
+					 
+					 
+
+			</div>		
+							
+
+				
+			  </body>
+
+</html>
